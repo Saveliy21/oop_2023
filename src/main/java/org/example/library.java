@@ -27,7 +27,7 @@ public class library {
     public List<Book> getFromTitle(String title){
         List<Book> result =  new LinkedList<>();
         for(Book book : library){
-            if(Objects.equals(book.title, title)){
+            if(Objects.equals(book.getTitle(), title)){
                 result.add(book);
             }
         }
@@ -37,7 +37,7 @@ public class library {
     public List<Book> getFromAuthor(String author){
         List<Book> result =  new LinkedList<>();
         for(Book book : library){
-            if(Objects.equals(book.author, author)){
+            if(Objects.equals(book.getAuthor(), author)){
                 result.add(book);
             }
         }
