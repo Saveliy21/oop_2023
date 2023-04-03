@@ -9,5 +9,8 @@
         <module name="task-2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="child" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
